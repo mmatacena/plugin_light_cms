@@ -1,0 +1,5 @@
+<isif condition="${slotcontent != null}">
+	<isloop items="${slotcontent.content}" var="contentAsset">
+		<isinclude url="${URLUtils.url('Page-Include', 'cid', contentAsset.ID)}"/>
+	</isloop>
+</isif>

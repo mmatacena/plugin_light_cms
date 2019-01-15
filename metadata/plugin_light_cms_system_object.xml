@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
+    <type-extension type-id="Content">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="altImage">
+                <display-name xml:lang="x-default">Alt Image</display-name>
+                <type>string</type>
+                <localizable-flag>true</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="categoryLink">
+                <display-name xml:lang="x-default">Category Link</display-name>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="componentType">
+                <display-name xml:lang="x-default">Component Type</display-name>
+                <type>enum-of-string</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <value-definitions>
+                    <value-definition>
+                        <display xml:lang="x-default">Hero - Image</display>
+                        <value>content/homepageHero.isml</value>
+                    </value-definition>
+                    <value-definition>
+                        <display xml:lang="x-default">Hero - Video</display>
+                        <value>content/homepageVideo.isml</value>
+                    </value-definition>
+                    <value-definition>
+                        <display xml:lang="x-default">Bottom - Image</display>
+                        <value>content/homepageBottom.isml</value>
+                    </value-definition>
+                </value-definitions>
+            </attribute-definition>
+            <attribute-definition attribute-id="copyText">
+                <display-name xml:lang="x-default">Copy Text</display-name>
+                <type>string</type>
+                <localizable-flag>true</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="desktopImage">
+                <display-name xml:lang="x-default">Desktop Image</display-name>
+                <type>image</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="mobileImage">
+                <display-name xml:lang="x-default">Mobile Image</display-name>
+                <type>image</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="productLink">
+                <display-name xml:lang="x-default">Product Link</display-name>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="tabletImage">
+                <display-name xml:lang="x-default">Tablet Image</display-name>
+                <type>image</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="videoID">
+                <display-name xml:lang="x-default">Video ID</display-name>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="videoService">
+                <display-name xml:lang="x-default">Video Service</display-name>
+                <type>enum-of-string</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <value-definitions>
+                    <value-definition>
+                        <value>youtube</value>
+                    </value-definition>
+                    <value-definition>
+                        <value>vimeo</value>
+                    </value-definition>
+                </value-definitions>
+            </attribute-definition>
+        </custom-attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="Media">
+                <display-name xml:lang="x-default">Media</display-name>
+                <attribute attribute-id="copyText"/>
+                <attribute attribute-id="mobileImage"/>
+                <attribute attribute-id="tabletImage"/>
+                <attribute attribute-id="desktopImage"/>
+                <attribute attribute-id="altImage"/>
+                <attribute attribute-id="productLink"/>
+                <attribute attribute-id="categoryLink"/>
+                <attribute attribute-id="videoID"/>
+                <attribute attribute-id="videoService"/>
+                <attribute attribute-id="componentType"/>
+            </attribute-group>
+        </group-definitions>
+    </type-extension>
+</metadata>

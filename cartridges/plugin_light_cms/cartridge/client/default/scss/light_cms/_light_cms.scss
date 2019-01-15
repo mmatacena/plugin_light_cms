@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import "base/components/hero";
+
+.hero {
+    height: 43vw;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+
+    h1.page-title {
+        top: 50%;
+        margin: -1em 0 0 0;
+    }
+}

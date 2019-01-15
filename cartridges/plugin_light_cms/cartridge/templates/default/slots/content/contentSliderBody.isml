@@ -1,0 +1,32 @@
+<div id="carouselExampleIndicators" class="home-main homepage carousel slide" data-ride="carousel" data-interval="5000">
+	<ol class="carousel-indicators">
+		<isif condition="${slotcontent != null}">
+        	<isloop items="${slotcontent.content}" var="contentAsset" status="loopstate">
+				<li data-target="#carouselExampleIndicators" data-slide-to="${loopstate.count-1}" <isif condition="${loopstate.first}">class="active"</isif>></li>
+            </isloop>
+		</isif>
+	</ol>
+    
+    <div class="carousel-inner">
+    	<isif condition="${slotcontent != null}">
+        	<isloop items="${slotcontent.content}" var="contentAsset" status="loopstate">
+				<isif condition="${loopstate.first}">
+					<div class="carousel-item active">
+				<iselse>
+					<div class="carousel-item">
+				</isif>
+					<isinclude url="${URLUtils.url('Page-Include', 'cid', contentAsset.ID)}"/>
+            	</div>
+			</isloop>
+		</isif>
+	</div>
+
+	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
