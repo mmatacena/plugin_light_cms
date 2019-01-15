@@ -36,5 +36,5 @@ plugin_light_cms:plugin_dis:app_storefront_base
     "base": "../storefront-reference-architecture/cartridges/app_storefront_base/"
   }
 ```
-4. In the top-level plugin_light_cms folder, enter the following command: npm run compile:scss
-5. In the top-level plugin_light_cms folder, enter the following command: npm run uploadCartridge
+4. In the top-level plugin_light_cms folder, enter the following command: ```npm run compile:scss```
+5. In the top-level plugin_light_cms folder, enter the following command: ```npm run uploadCartridge```
