@@ -4,13 +4,13 @@ Managing homepage banner hero or slider without writing HTML.
 
 This is the repository for the plugin_light_cms plugin. This plugin enhances the app_storefront_base cartridge by providing the possibility to manage homepage banner hero or slider without writing HTML.
 
-Manage *Hero Banner* with
+Manage *Hero Banner* (Content Slot 'home-main-m') with
 
 * Single Image with text over and link to a product or category
 * Slider with multiple images with text over and link to a product or category
 * Video
 
-Manage *Bottom Banner* with
+Manage *Bottom Banner* (Content Slot 'home-product-set-m') with
 
 * Single Image with text over and link to a product or category
 
