@@ -1,6 +1,6 @@
 # plugin_light_cms: Storefront Reference Architecture (SFRA)
 
-Managing homepage banner hero or slider without writing HTML.
+Managing some contents without writing HTML.
 
 This is the repository for the plugin_light_cms plugin. This plugin enhances the app_storefront_base cartridge by providing the possibility to manage homepage banner hero or slider without writing HTML.
 
