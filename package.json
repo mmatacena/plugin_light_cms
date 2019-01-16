@@ -11,6 +11,7 @@
     "compile:scss": "sgmf-scripts --compile css",
     "compile:js": "sgmf-scripts --compile js",
     "compile:fonts": "node bin/Makefile compileFonts",
+    "upload": "sgmf-scripts --upload ",
     "release": "node bin/Makefile release --"
   },
   "devDependencies": {
