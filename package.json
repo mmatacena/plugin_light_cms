@@ -11,7 +11,7 @@
     "compile:scss": "sgmf-scripts --compile css",
     "compile:js": "sgmf-scripts --compile js",
     "compile:fonts": "node bin/Makefile compileFonts",
-    "upload": "sgmf-scripts --upload ",
+    "uploadCartridge": "sgmf-scripts --uploadCartridge plugin_light_cms",
     "release": "node bin/Makefile release --"
   },
   "devDependencies": {
