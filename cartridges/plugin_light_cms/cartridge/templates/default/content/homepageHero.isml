@@ -66,6 +66,6 @@
 	<a href="${URLUtils.url('Home-Show')}">			
 </isif>
 
-<div id="${pdict.content.ID}-main-callout" class="hero main-callout">
-<h1 class="page-title"><isprint value="${pdict.content.copyText}" encoding="off"/></h1>
+<div id="${pdict.content.ID}-main-callout" class="hero-homepage main-callout">
+    <h1 class="page-title"><isprint value="${pdict.content.copyText}" encoding="off"/></h1>
 </div>
