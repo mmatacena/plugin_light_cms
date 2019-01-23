@@ -1,0 +1,134 @@
+<style>
+		@media (min-width: 1281px) {
+				.first-wrap {
+			  	height: 100%;
+			  	width: 100vw;
+			  	background-size: cover;
+			   	background-position: 50% 50%;
+			  	background-repeat: no-repeat;
+			  	background-attachment: fixed;}
+		        
+		        ${'#'}${pdict.content.ID}-first-wrap {
+			        background-image: url('${pdict.content.desktopImage}');
+			    }
+		    }
+		
+		/* 
+		  ##Device = Laptops, Desktops
+		  ##Screen = B/w 1025px to 1280px
+		*/
+		@media (min-width: 1025px) and (max-width: 1280px) {
+			.first-wrap {
+			  	height: 100%;
+			  	width: 100vw;
+			  	background-size: cover;
+			   	background-position: 50% 50%;
+			  	background-repeat: no-repeat;
+			  	background-attachment: fixed;}
+		        
+		        ${'#'}${pdict.content.ID}-first-wrap {
+			        background-image: url('${pdict.content.desktopImage}');
+			    }
+		}
+		
+		/* 
+		  ##Device = Tablets, Ipads (portrait)
+		  ##Screen = B/w 768px to 1024px
+		*/
+		@media (min-width: 768px) and (max-width: 1024px) {
+		    .first-wrap {
+			  	height: 100%;
+			  	width: 100vw;
+			  	background-size: cover;
+			   	background-position: 50% 50%;
+			  	background-repeat: no-repeat;
+			  	background-attachment: local;}
+		        
+		        ${'#'}${pdict.content.ID}-first-wrap {
+			        background-image: url('${pdict.content.tabletImage}');
+			    }
+		}
+		
+		/* 
+		  ##Device = Tablets, Ipads (landscape)
+		  ##Screen = B/w 768px to 1024px
+		*/
+		@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+			.first-wrap {
+			  	height: 100%;
+			  	width: 100vw;
+			  	background-size: cover;
+			   	background-position: 50% 50%;
+			  	background-repeat: no-repeat;
+			  	background-attachment: local;}
+		        
+		        ${'#'}${pdict.content.ID}-first-wrap {
+			        background-image: url('${pdict.content.tabletImage}');
+			    }
+		}
+		
+		/* 
+		  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+		  ##Screen = B/w 481px to 767px
+		*/
+		@media (min-width: 481px) and (max-width: 767px) {
+			.first-wrap {
+			  	height: 100%;
+			  	width: 100vw;
+			  	background-size: cover;
+			   	background-position: 50% 50%;
+			  	background-repeat: no-repeat;
+			  	background-attachment: local;}
+		        
+		        ${'#'}${pdict.content.ID}-first-wrap {
+			        background-image: url('${pdict.content.mobileImage}');
+			    }
+		}
+		
+		/* 
+		  ##Device = Most of the Smartphones Mobiles (Portrait)
+		  ##Screen = B/w 320px to 479px
+		*/
+		@media (min-width: 320px) and (max-width: 480px) {
+			.first-wrap {
+			  	height: 100%;
+			  	width: 100vw;
+			  	background-size: cover;
+			   	background-position: 50% 50%;
+			  	background-repeat: no-repeat;
+			  	background-attachment: local;}
+		        
+		        ${'#'}${pdict.content.ID}-first-wrap {
+			        background-image: url('${pdict.content.mobileImage}');
+			    }
+		}
+		</style>
+
+
+		<div>
+    	<!-- dwMarker="content" dwContentID="${contentAsset.UUID}" -->
+		<div class="first-wrap" id="${pdict.content.ID}-first-wrap">
+		  <div class="first-div">
+		    <div class="first-inner-div">
+		      <p id="first-title"><strong><isprint value="${pdict.content.copyText}" encoding="off"/></strong></p>
+						<isif condition="${!empty(pdict.content.productLink)}">
+							<p>
+		      					<section>
+		      						<a href="${URLUtils.url('Product-Show','pid', pdict.content.productLink)}" style="text-decoration:none;"><button id="js-trigger-overlay" type="button">Buy Now</button></a>
+								</section>
+  							</p>
+						<iselseif condition="${!empty(pdict.content.categoryLink)}">
+							<p>
+		      					<section>
+		      						<a href="${URLUtils.url('Search-Show','cgid', pdict.content.categoryLink)}" style="text-decoration:none;"><button id="js-trigger-overlay" type="button">Visit Now</button></a>
+								</section>
+  							</p>
+						<iselse></isif>
+		      <a href="#anchor">
+		        <span class="glyphicon glyphicon-circle-arrow-down down-arrow"></span>
+		      </a>      
+		    </div>
+		  </div>
+		</div>
+		<!-- END_dwmarker -->
+		</div>
