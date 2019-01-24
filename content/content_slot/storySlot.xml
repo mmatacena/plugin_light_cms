@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slot-configurations xmlns="http://www.demandware.com/xml/impex/slot/2008-09-08">
+
+    <slot-configuration slot-id="story-scenes" context="global" configuration-id="Story1" assigned-to-site="true">
+        <template>slots/content/storyScenes.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="fashion-story-title"/>
+                <content-asset content-id="fashion-story-1"/>
+                <content-asset content-id="fashion-story-2"/>
+                <content-asset content-id="fashion-story-3"/>
+                <content-asset content-id="fashion-story-4"/>
+                <content-asset content-id="fashion-story-5"/>
+                <content-asset content-id="fashion-story-end"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+</slot-configurations>

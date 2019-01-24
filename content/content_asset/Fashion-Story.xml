@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31" library-id="RefArchSharedLibrary">
+ 
+    <content content-id="fashion-story-title">
+        <display-name xml:lang="x-default">Fashion Story - Title</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="componentType">content/storySceneTitle.isml</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="x-default">«I really need new clothes» &lt;br&gt; Me, every morning</custom-attribute>
+            <custom-attribute attribute-id="desktopImage">images/story/fashion/FashionStoryTitle.jpeg</custom-attribute>
+        </custom-attributes>
+    </content>
+    
+    <content content-id="fashion-story-1">
+        <display-name xml:lang="x-default">Fashion Story - Scene 1</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="componentType">content/storySceneDark.isml</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="x-default">Life isn’t perfect but your outfit can be.</custom-attribute>
+            <custom-attribute attribute-id="desktopImage">images/story/fashion/FashionStory1.jpeg</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="fashion-story-2">
+        <display-name xml:lang="x-default">Fashion Story - Scene 2</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="componentType">content/storySceneLight.isml</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="x-default">Dress like you’re already famous.</custom-attribute>
+            <custom-attribute attribute-id="desktopImage">images/story/fashion/FashionStory2.jpeg</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="fashion-story-3">
+        <display-name xml:lang="x-default">Fashion Story - Scene 3</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="componentType">content/storySceneDark.isml</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="x-default">Life’s too short to wear boring clothes.</custom-attribute>
+            <custom-attribute attribute-id="desktopImage">images/story/fashion/FashionStory3.jpeg</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="fashion-story-4">
+        <display-name xml:lang="x-default">Fashion Story - Scene 4</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="componentType">content/storySceneLight.isml</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="x-default">Always dress like you’re going to see your worst enemy.</custom-attribute>
+            <custom-attribute attribute-id="desktopImage">images/story/fashion/FashionStory4.jpeg</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="fashion-story-5">
+        <display-name xml:lang="x-default">Fashion Story - Scene 5</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="componentType">content/storySceneDark.isml</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="x-default">Shortest horror story ever: sold out.</custom-attribute>
+            <custom-attribute attribute-id="desktopImage">images/story/fashion/FashionStory5.jpeg</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="fashion-story-end">
+        <display-name xml:lang="x-default">Fashion Story - End</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="categoryLink">womens-outfits</custom-attribute>
+            <custom-attribute attribute-id="componentType">content/storySceneTitle.isml</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="x-default">It’s an «Add to Cart» kinda day!</custom-attribute>
+            <custom-attribute attribute-id="desktopImage">images/story/fashion/FashionStoryEnd.jpeg</custom-attribute>
+        </custom-attributes>
+    </content>
+
+</library>

@@ -1,6 +1,6 @@
 {
   "name": "plugin_light_cms",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "New overlay cartridge",
   "main": "index.js",
   "engines": {
