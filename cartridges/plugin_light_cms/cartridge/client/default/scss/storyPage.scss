@@ -1,12 +1,16 @@
 @charset "UTF-8";
 
+@import "base/variables";
+
+$grey-transparent-3: rgba(255, 255, 255, 0.8);
+
 .line-separator {
     display: block;
     width: 50%;
     height: 1px;
     text-align: center;
     margin: 20px auto;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid $grey4;
   }
   /* First Wrap Background */
   
@@ -46,11 +50,11 @@
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
-      color: #fff;
+      color: $white;
       font-size: 20px;
       .down-arrow {
         font-size: 40px;
-        color: #fff;
+        color: $white;
       }
     }
     
@@ -58,14 +62,14 @@
         padding: 20px;
         letter-spacing: 0.45em;
         text-transform: uppercase;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: $grey-transparent-1;
       }
   
   .second-div {
     display: table;
     height: 50vh;
     width: 100vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: $grey-transparent-1;
   }
   
   #second-title {
@@ -88,14 +92,14 @@
     display: table;
     height: 50vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: $grey-transparent-1;
   }
   
   #fourth-title {
         display: table-cell;
       vertical-align: middle;
       text-align: center;
-      color: #fff;
+      color: $white;
       font-size: 20px;
       letter-spacing: 0.45em;
       text-transform: uppercase;
@@ -117,8 +121,8 @@
     height: 32px;
     text-align: center;
     line-height: 30px;
-    background-color: rgb(255, 255, 255);
-    color: #000;
+    background-color: $white;
+    color: $black;
     cursor: pointer;
     border: 0;
     border-radius: 2px;
@@ -128,8 +132,8 @@
   }
   
   #back-to-top:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #000;
+    background-color: $grey-transparent-3;
+    color: $black;
   }
   
   #back-to-top.show {
@@ -158,9 +162,9 @@
     font-size: 17px;
     padding: 10px 10px;
     display: block;
-    background-color: #009ac9;
+    background-color: $primary;
     border: 1px solid transparent;
-    color: #ffffff;
+    color: $white;
     font-weight: 300;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -170,7 +174,7 @@
   }
 
   section button:hover {
-    background-color: #ffffff;
-    color: #009ac9;
-    border-color: #009ac9;
+    background-color: $white;
+    color: $primary;
+    border-color: $primary;
   }

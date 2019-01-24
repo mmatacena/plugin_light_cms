@@ -1,2 +1,2 @@
 node_modules
-plugin_light_cms/cartridges/plugin_light_cms/cartridge/static/default/css
+*.css
