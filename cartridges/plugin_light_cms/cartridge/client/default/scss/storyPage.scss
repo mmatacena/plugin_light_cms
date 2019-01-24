@@ -2,7 +2,9 @@
 
 @import "base/variables";
 
-$grey-transparent-3: rgba(255, 255, 255, 0.8);
+$grey-transparent-3: rgba(0, 0, 0, 0.5);
+$grey-transparent-4: rgba(255, 255, 255, 0.5);
+$grey-transparent-5: rgba(255, 255, 255, 0.8);
 
 .line-separator {
     display: block;
@@ -62,18 +64,18 @@ $grey-transparent-3: rgba(255, 255, 255, 0.8);
         padding: 20px;
         letter-spacing: 0.45em;
         text-transform: uppercase;
-        background-color: $grey-transparent-1;
+        background-color: $grey-transparent-3;
       }
   
   .second-div {
     display: table;
     height: 50vh;
     width: 100vw;
-    background-color: $grey-transparent-1;
+    background-color: $grey-transparent-4;
   }
   
   #second-title {
-        display: table-cell;
+      display: table-cell;
       vertical-align: middle;
       text-align: center;
       font-size: 20px;
@@ -92,7 +94,7 @@ $grey-transparent-3: rgba(255, 255, 255, 0.8);
     display: table;
     height: 50vh;
     width: 100vw;
-    background-color: $grey-transparent-1;
+    background-color: $grey-transparent-3;
   }
   
   #fourth-title {
@@ -132,7 +134,7 @@ $grey-transparent-3: rgba(255, 255, 255, 0.8);
   }
   
   #back-to-top:hover {
-    background-color: $grey-transparent-3;
+    background-color: $grey-transparent-5;
     color: $black;
   }
   
@@ -166,7 +168,7 @@ $grey-transparent-3: rgba(255, 255, 255, 0.8);
     border: 1px solid transparent;
     color: $white;
     font-weight: 300;
-    -webkit-border-radius: 3px;
+    -webkit-border-radius: 3px;ù
     border-radius: 3px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
