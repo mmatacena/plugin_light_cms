@@ -2,7 +2,7 @@
 <slot-configurations xmlns="http://www.demandware.com/xml/impex/slot/2008-09-08">
 
     <slot-configuration slot-id="story-scenes" context="global" configuration-id="Story1" assigned-to-site="true">
-        <template>slots/content/storyScenes.isml</template>
+        <template>slots/content/contentMediaBody.isml</template>
         <enabled-flag>true</enabled-flag>
         <content>
             <content-assets>

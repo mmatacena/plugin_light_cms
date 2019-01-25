@@ -1,12 +1,13 @@
 <isdecorate template="common/layout/page">
+	
 	<isscript>
 		var assets = require('*/cartridge/scripts/assets.js');
 		assets.addJs('/js/story.js');
 		assets.addCss('/css/storyPage.css');
 	</isscript>
-<div class="container-movie">
 
-<isslot id="story-scenes" description="Contains all the scenes about the story" context="global" />
+	<div class="container-movie">
+		<isslot id="story-scenes" description="Contains all the scenes about the story" context="global" />
+	</div>
 
-</div>
 </isdecorate>
