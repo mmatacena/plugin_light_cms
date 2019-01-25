@@ -102,20 +102,19 @@
 			        background-image: url('${pdict.content.mobileImage}');
 			    }
 		}
-		</style>
+</style>
 		
 		
-		<div>
-    	<!-- dwMarker="content" dwContentID="${contentAsset.UUID}" -->
-		<div class="third-wrap" id="${pdict.content.ID}-third-wrap">
-		  <div class="fourth-div">
-		    <p class="body-text" id="fourth-title">
-		      <span class="line-separator"></span> <strong><isprint value="${pdict.content.copyText}" encoding="off"/></strong>
-		      <span class="line-separator"></span>
-		    </p>
-		  </div>
-		  <div class="fifth-div">
-		  </div>
-		</div>
-		<!-- END_dwmarker -->
-		</div>
+<div class="third-wrap" id="${pdict.content.ID}-third-wrap">
+	<div class="fourth-div">
+		<p class="body-text" id="fourth-title">
+		  <span class="line-separator"></span>
+			<strong>
+				<isprint value="${pdict.content.copyText}" encoding="off"/>
+			</strong>
+		  <span class="line-separator"></span>
+		</p>
+	</div>
+	<div class="fifth-div">
+	</div>
+</div>

@@ -102,33 +102,32 @@
 			        background-image: url('${pdict.content.mobileImage}');
 			    }
 		}
-		</style>
+</style>
 
-
-		<div>
-    	<!-- dwMarker="content" dwContentID="${contentAsset.UUID}" -->
-		<div class="first-wrap" id="${pdict.content.ID}-first-wrap">
-		  <div class="first-div">
-		    <div class="first-inner-div">
-		      <p id="first-title"><strong><isprint value="${pdict.content.copyText}" encoding="off"/></strong></p>
-						<isif condition="${!empty(pdict.content.productLink)}">
-							<p>
-		      					<section>
-		      						<a href="${URLUtils.url('Product-Show','pid', pdict.content.productLink)}" style="text-decoration:none;"><button id="js-trigger-overlay" type="button">Buy Now</button></a>
-								</section>
-  							</p>
-						<iselseif condition="${!empty(pdict.content.categoryLink)}">
-							<p>
-		      					<section>
-		      						<a href="${URLUtils.url('Search-Show','cgid', pdict.content.categoryLink)}" style="text-decoration:none;"><button id="js-trigger-overlay" type="button">Visit Now</button></a>
-								</section>
-  							</p>
-						<iselse></isif>
-		      <a href="#anchor">
-		        <span class="glyphicon glyphicon-circle-arrow-down down-arrow"></span>
-		      </a>      
-		    </div>
-		  </div>
+<div class="first-wrap" id="${pdict.content.ID}-first-wrap">
+	<div class="first-div">
+		<div class="first-inner-div">
+		  <p id="first-title">
+				<strong>
+					<isprint value="${pdict.content.copyText}" encoding="off"/>
+				</strong>
+			</p>
+			<isif condition="${!empty(pdict.content.productLink)}">
+				<p>
+		    	<section>
+		    		<a href="${URLUtils.url('Product-Show','pid', pdict.content.productLink)}" style="text-decoration:none;"><button id="js-trigger-overlay" type="button">Buy Now</button></a>
+					</section>
+  			</p>
+			<iselseif condition="${!empty(pdict.content.categoryLink)}">
+				<p>
+	    		<section>
+	      		<a href="${URLUtils.url('Search-Show','cgid', pdict.content.categoryLink)}" style="text-decoration:none;"><button id="js-trigger-overlay" type="button">Visit Now</button></a>
+					</section>
+  			</p>
+			<iselse></isif>
+		  <a href="#anchor">
+		      <span class="glyphicon glyphicon-circle-arrow-down down-arrow"></span>
+	    </a>      
 		</div>
-		<!-- END_dwmarker -->
-		</div>
+	</div>
+</div>
