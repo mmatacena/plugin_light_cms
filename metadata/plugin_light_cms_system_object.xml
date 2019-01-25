@@ -40,6 +40,18 @@
                         <display xml:lang="x-default">Bottom - Image</display>
                         <value>content/homepageBottom.isml</value>
                     </value-definition>
+                    <value-definition>
+                        <display xml:lang="x-default">Story - Scene Title</display>
+                        <value>content/storySceneTitle.isml</value>
+                    </value-definition>
+                    <value-definition>
+                        <display xml:lang="x-default">Story - Scene Light</display>
+                        <value>content/storySceneLight.isml</value>
+                    </value-definition>
+                    <value-definition>
+                        <display xml:lang="x-default">Story - Scene Dark</display>
+                        <value>content/storySceneDark.isml</value>
+                    </value-definition>
                 </value-definitions>
             </attribute-definition>
             <attribute-definition attribute-id="copyText">
