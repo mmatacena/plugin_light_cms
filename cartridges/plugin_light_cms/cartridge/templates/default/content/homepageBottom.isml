@@ -1,72 +1,75 @@
-<style>
-@media (min-width: 1281px) {
-    ${'#'}${pdict.content.ID}-slant-up {
-        background-image: url('${pdict.content.desktopImage}');
+<div>
+    <style>
+    @media (min-width: 1281px) {
+        ${'#'}${pdict.content.ID}-slant-up {
+            background-image: url('${pdict.content.desktopImage}');
+        }
     }
-}
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-@media (min-width: 1025px) and (max-width: 1280px) {
-    ${'#'}${pdict.content.ID}-slant-up {
-        background-image: url('${pdict.content.desktopImage}');
+    /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+    */
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        ${'#'}${pdict.content.ID}-slant-up {
+            background-image: url('${pdict.content.desktopImage}');
+        }
     }
-}
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-@media (min-width: 768px) and (max-width: 1024px) {
-    ${'#'}${pdict.content.ID}-slant-up {
-        background-image: url('${pdict.content.tabletImage}');
+    /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+    */
+    @media (min-width: 768px) and (max-width: 1024px) {
+        ${'#'}${pdict.content.ID}-slant-up {
+            background-image: url('${pdict.content.tabletImage}');
+        }
     }
-}
 
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    ${'#'}${pdict.content.ID}-slant-up {
-        background-image: url('${pdict.content.tabletImage}');
+    /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+    */
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        ${'#'}${pdict.content.ID}-slant-up {
+            background-image: url('${pdict.content.tabletImage}');
+        }
     }
-}
 
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-	${'#'}${pdict.content.ID}-slant-up {
-		background-image: url('${pdict.content.mobileImage}');
-	}
-}
+    /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+    */
+    @media (min-width: 481px) and (max-width: 767px) {
+        ${'#'}${pdict.content.ID}-slant-up {
+            background-image: url('${pdict.content.mobileImage}');
+        }
+    }
 
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-@media (min-width: 320px) and (max-width: 480px) {
-	${'#'}${pdict.content.ID}-slant-up {
-		background-image: url('${pdict.content.mobileImage}');
-	}
-}
-</style>
+    /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+    */
+    @media (min-width: 320px) and (max-width: 480px) {
+        ${'#'}${pdict.content.ID}-slant-up {
+            background-image: url('${pdict.content.mobileImage}');
+        }
+    }
+    </style>
 
-<isif condition="${!empty(pdict.content.productLink)}">
-	<a href="${URLUtils.url('Product-Show','pid', pdict.content.productLink)}">
-
-<iselseif condition="${!empty(pdict.content.categoryLink)}">
-	<a href="${URLUtils.url('Search-Show','cgid', pdict.content.categoryLink)}">
-
-<iselse>
-	<a href="${URLUtils.url('Home-Show')}">			
-</isif>
-
-<div id="${pdict.content.ID}-slant-up" class="hero-homepage slant-up">
-<h1 class="page-title"><isprint value="${pdict.content.copyText}" encoding="off"/></h1>
+    <!-- dwMarker="content" dwContentID="${pdict.content.UUID}" dwContext="global" -->
+    <isif condition="${!empty(pdict.content.productLink)}">
+        <a href="${URLUtils.url('Product-Show','pid', pdict.content.productLink)}">
+    <iselseif condition="${!empty(pdict.content.categoryLink)}">
+        <a href="${URLUtils.url('Search-Show','cgid', pdict.content.categoryLink)}">
+    <iselse>
+        <a href="${URLUtils.url('Home-Show')}">			
+    </isif>
+    <div id="${pdict.content.ID}-slant-up" class="hero-homepage slant-up">
+        <h1 class="page-title">
+            <isprint value="${pdict.content.copyText}" encoding="off"/>
+        </h1>
+    </div>
+    </a>
+    <!-- END_dwmarker -->
 </div>
-</a>

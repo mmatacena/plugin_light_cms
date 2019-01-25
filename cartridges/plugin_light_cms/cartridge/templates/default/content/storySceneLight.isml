@@ -1,4 +1,5 @@
-<style>
+<div>
+	<style>
 		@media (min-width: 1281px) {
 				.second-wrap {
 			  	height: 100%;
@@ -102,18 +103,21 @@
 			        background-image: url('${pdict.content.mobileImage}');
 			    }
 		}
-</style>
-		
-<div class="second-wrap" id="${pdict.content.ID}-second-wrap">
-	<div class="second-div" id="anchor">
-		<p class="body-text" id="second-title">
-			<span class="line-separator"></span>
-			<strong>
-				<isprint value="${pdict.content.copyText}" encoding="off"/>
-			</strong>
-			<span class="line-separator"></span>
-		</p>
+	</style>
+
+	<!-- dwMarker="content" dwContentID="${pdict.content.UUID}" dwContext="global" -->
+	<div class="second-wrap" id="${pdict.content.ID}-second-wrap">
+		<div class="second-div" id="anchor">
+			<p class="body-text" id="second-title">
+				<span class="line-separator"></span>
+				<strong>
+					<isprint value="${pdict.content.copyText}" encoding="off"/>
+				</strong>
+				<span class="line-separator"></span>
+			</p>
+		</div>
+		<div class="third-div">
+		</div>
 	</div>
-	<div class="third-div">
-	</div>
+	<!-- END_dwmarker -->
 </div>

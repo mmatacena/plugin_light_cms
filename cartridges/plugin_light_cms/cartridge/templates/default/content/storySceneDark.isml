@@ -1,120 +1,123 @@
-<style>
-		@media (min-width: 1281px) {
+<div>
+	<style>
+			@media (min-width: 1281px) {
+					.third-wrap {
+						height: 100%;
+						width: 100vw;
+						background-size: cover;
+						background-position: 50% 50%;
+						background-repeat: no-repeat;
+						background-attachment: fixed;}
+							
+							${'#'}${pdict.content.ID}-third-wrap {
+								background-image: url('${pdict.content.desktopImage}');
+						}
+					}
+			
+			/* 
+				##Device = Laptops, Desktops
+				##Screen = B/w 1025px to 1280px
+			*/
+			@media (min-width: 1025px) and (max-width: 1280px) {
 				.third-wrap {
-			  	height: 100%;
-			  	width: 100vw;
-			  	background-size: cover;
-			   	background-position: 50% 50%;
-			  	background-repeat: no-repeat;
-			  	background-attachment: fixed;}
-		        
-		        ${'#'}${pdict.content.ID}-third-wrap {
-			        background-image: url('${pdict.content.desktopImage}');
-			    }
-		    }
-		
-		/* 
-		  ##Device = Laptops, Desktops
-		  ##Screen = B/w 1025px to 1280px
-		*/
-		@media (min-width: 1025px) and (max-width: 1280px) {
-			.third-wrap {
-			  	height: 100%;
-			  	width: 100vw;
-			  	background-size: cover;
-			   	background-position: 50% 50%;
-			  	background-repeat: no-repeat;
-			  	background-attachment: fixed;}
-		        
-		        ${'#'}${pdict.content.ID}-third-wrap {
-			        background-image: url('${pdict.content.desktopImage}');
-			    }
-		}
-		
-		/* 
-		  ##Device = Tablets, Ipads (portrait)
-		  ##Screen = B/w 768px to 1024px
-		*/
-		@media (min-width: 768px) and (max-width: 1024px) {
-		    .third-wrap {
-			  	height: 100%;
-			  	width: 100vw;
-			  	background-size: cover;
-			   	background-position: 50% 50%;
-			  	background-repeat: no-repeat;
-			  	background-attachment: local;}
-		        
-		        ${'#'}${pdict.content.ID}-third-wrap {
-			        background-image: url('${pdict.content.tabletImage}');
-			    }
-		}
-		
-		/* 
-		  ##Device = Tablets, Ipads (landscape)
-		  ##Screen = B/w 768px to 1024px
-		*/
-		@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-			.third-wrap {
-			  	height: 100%;
-			  	width: 100vw;
-			  	background-size: cover;
-			   	background-position: 50% 50%;
-			  	background-repeat: no-repeat;
-			  	background-attachment: local;}
-		        
-		        ${'#'}${pdict.content.ID}-third-wrap {
-			        background-image: url('${pdict.content.tabletImage}');
-			    }
-		}
-		
-		/* 
-		  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-		  ##Screen = B/w 481px to 767px
-		*/
-		@media (min-width: 481px) and (max-width: 767px) {
-			.third-wrap {
-			  	height: 100%;
-			  	width: 100vw;
-			  	background-size: cover;
-			   	background-position: 50% 50%;
-			  	background-repeat: no-repeat;
-			  	background-attachment: local;}
-		        
-		        ${'#'}${pdict.content.ID}-third-wrap {
-			        background-image: url('${pdict.content.mobileImage}');
-			    }
-		}
-		
-		/* 
-		  ##Device = Most of the Smartphones Mobiles (Portrait)
-		  ##Screen = B/w 320px to 479px
-		*/
-		@media (min-width: 320px) and (max-width: 480px) {
-			.third-wrap {
-			  	height: 100%;
-			  	width: 100vw;
-			  	background-size: cover;
-			   	background-position: 50% 50%;
-			  	background-repeat: no-repeat;
-			  	background-attachment: local;}
-		        
-		        ${'#'}${pdict.content.ID}-third-wrap {
-			        background-image: url('${pdict.content.mobileImage}');
-			    }
-		}
-</style>
-		
-		
-<div class="third-wrap" id="${pdict.content.ID}-third-wrap">
-	<div class="fourth-div">
-		<p class="body-text" id="fourth-title">
-		  <span class="line-separator"></span>
-			<strong>
-				<isprint value="${pdict.content.copyText}" encoding="off"/>
-			</strong>
-		  <span class="line-separator"></span>
-		</p>
+						height: 100%;
+						width: 100vw;
+						background-size: cover;
+						background-position: 50% 50%;
+						background-repeat: no-repeat;
+						background-attachment: fixed;}
+							
+							${'#'}${pdict.content.ID}-third-wrap {
+								background-image: url('${pdict.content.desktopImage}');
+						}
+			}
+			
+			/* 
+				##Device = Tablets, Ipads (portrait)
+				##Screen = B/w 768px to 1024px
+			*/
+			@media (min-width: 768px) and (max-width: 1024px) {
+					.third-wrap {
+						height: 100%;
+						width: 100vw;
+						background-size: cover;
+						background-position: 50% 50%;
+						background-repeat: no-repeat;
+						background-attachment: local;}
+							
+							${'#'}${pdict.content.ID}-third-wrap {
+								background-image: url('${pdict.content.tabletImage}');
+						}
+			}
+			
+			/* 
+				##Device = Tablets, Ipads (landscape)
+				##Screen = B/w 768px to 1024px
+			*/
+			@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+				.third-wrap {
+						height: 100%;
+						width: 100vw;
+						background-size: cover;
+						background-position: 50% 50%;
+						background-repeat: no-repeat;
+						background-attachment: local;}
+							
+							${'#'}${pdict.content.ID}-third-wrap {
+								background-image: url('${pdict.content.tabletImage}');
+						}
+			}
+			
+			/* 
+				##Device = Low Resolution Tablets, Mobiles (Landscape)
+				##Screen = B/w 481px to 767px
+			*/
+			@media (min-width: 481px) and (max-width: 767px) {
+				.third-wrap {
+						height: 100%;
+						width: 100vw;
+						background-size: cover;
+						background-position: 50% 50%;
+						background-repeat: no-repeat;
+						background-attachment: local;}
+							
+							${'#'}${pdict.content.ID}-third-wrap {
+								background-image: url('${pdict.content.mobileImage}');
+						}
+			}
+			
+			/* 
+				##Device = Most of the Smartphones Mobiles (Portrait)
+				##Screen = B/w 320px to 479px
+			*/
+			@media (min-width: 320px) and (max-width: 480px) {
+				.third-wrap {
+						height: 100%;
+						width: 100vw;
+						background-size: cover;
+						background-position: 50% 50%;
+						background-repeat: no-repeat;
+						background-attachment: local;}
+							
+							${'#'}${pdict.content.ID}-third-wrap {
+								background-image: url('${pdict.content.mobileImage}');
+						}
+			}
+	</style>
+
+	<!-- dwMarker="content" dwContentID="${pdict.content.UUID}" dwContext="global" -->
+	<div class="third-wrap" id="${pdict.content.ID}-third-wrap">
+		<div class="fourth-div">
+			<p class="body-text" id="fourth-title">
+				<span class="line-separator"></span>
+				<strong>
+					<isprint value="${pdict.content.copyText}" encoding="off"/>
+				</strong>
+				<span class="line-separator"></span>
+			</p>
+		</div>
+		<div class="fifth-div">
+		</div>
 	</div>
-	<div class="fifth-div">
-	</div>
+	<!-- END_dwmarker -->
 </div>

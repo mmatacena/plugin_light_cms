@@ -56,16 +56,18 @@
 }
 </style>
 
+<!-- dwMarker="content" dwContentID="${pdict.content.UUID}" dwContext="global" -->
 <isif condition="${!empty(pdict.content.productLink)}">
 	<a href="${URLUtils.url('Product-Show','pid', pdict.content.productLink)}">
-
 <iselseif condition="${!empty(pdict.content.categoryLink)}">
 	<a href="${URLUtils.url('Search-Show','cgid', pdict.content.categoryLink)}">
-
 <iselse>
 	<a href="${URLUtils.url('Home-Show')}">			
 </isif>
-
 <div id="${pdict.content.ID}-main-callout" class="hero-homepage main-callout">
-    <h1 class="page-title"><isprint value="${pdict.content.copyText}" encoding="off"/></h1>
+    <h1 class="page-title">
+        <isprint value="${pdict.content.copyText}" encoding="off"/>
+    </h1>
 </div>
+</a>
+<!-- END_dwmarker -->
