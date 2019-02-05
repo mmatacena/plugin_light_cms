@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31"
+    library-id="RefArchSharedLibrary">
+
+    <content content-id="home-main-bottom">
+        <display-name xml:lang="x-default">home product set content</display-name>
+        <display-name xml:lang="fr-FR">contenu ensemble des produits de l'accueil</display-name>
+        <display-name xml:lang="it-IT">contenuto set di prodotti della home page</display-name>
+        <display-name xml:lang="ja-JP">ホーム商品セットコンテンツ</display-name>
+        <display-name xml:lang="zh-CN">主页产品组合内容</display-name>
+        <description xml:lang="x-default">Content shown on the homepage that will reveal product
+            tiles of products assigned to the 'home-product-set' slot.</description>
+        <description xml:lang="fr-FR">Contenu affiché sur la page d'accueil qui correspond à une
+            mosaïque des produits associés au slot 'ensemble-produits-accueil'.</description>
+        <description xml:lang="it-IT">Contenuto visualizzato nella home page che mostra i riquadri
+            dei prodotti assegnati allo slot 'home-product-set'.</description>
+        <description xml:lang="ja-JP">ホームページに表示されるコンテンツで、'home-product-set'
+            スロットに割り当てた商品の商品タイルを表示します。</description>
+        <description xml:lang="zh-CN">主页显示的内容（将显示分配给“主页-产品-组”动态内容的产品的产品板块）。</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="categoryLink">womens-outfits</custom-attribute>
+            <custom-attribute attribute-id="componentType"
+                >content/homepageBottom.isml</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="x-default">Shop the
+                Style</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="fr-FR">Acheter ce
+                style</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="it-IT">Acquista lo
+                Stile</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="ja-JP"
+                >お好みのスタイルをチョイス</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="zh-CN">购买款式</custom-attribute>
+            <custom-attribute attribute-id="desktopImage"
+                >images/homepage/homepage-2/bottom-large.jpg</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="home-main-slide1">
+        <display-name xml:lang="x-default">Home Main Slider - Slide 1</display-name>
+        <display-name xml:lang="fr-FR">Accueil principal</display-name>
+        <display-name xml:lang="it-IT">Pagina principale Uomo</display-name>
+        <display-name xml:lang="ja-JP">ホームメイン</display-name>
+        <display-name xml:lang="zh-CN">首页主要</display-name>
+        <description xml:lang="x-default">Container for Home Page main image.</description>
+        <description xml:lang="fr-FR">Conteneur de l'image principale de la page
+            d'accueil.</description>
+        <description xml:lang="it-IT">Riquadro per immagine principale Pagina
+            principale.</description>
+        <description xml:lang="ja-JP">ホームページのメイン画像のコンテナ。</description>
+        <description xml:lang="zh-CN">主页主图片的容器。</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="categoryLink">newarrivals-womens</custom-attribute>
+            <custom-attribute attribute-id="componentType"
+                >content/homepageHero.isml</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="x-default">Summer
+                Style</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="fr-FR">Style
+                Estival</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="it-IT">Stile
+                Estivo</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="ja-JP">夏のスタイル</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="zh-CN">夏装样式</custom-attribute>
+            <custom-attribute attribute-id="desktopImage"
+                >images/homepage/homepage-slider/1-large-h.jpg</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="home-page"/>
+        </folder-links>
+    </content>
+
+    <content content-id="home-main-slide2">
+        <display-name xml:lang="x-default">Home Main Slider - Slide 2</display-name>
+        <display-name xml:lang="fr-FR">Accueil principal</display-name>
+        <display-name xml:lang="it-IT">Pagina principale Uomo</display-name>
+        <display-name xml:lang="ja-JP">ホームメイン</display-name>
+        <display-name xml:lang="zh-CN">首页主要</display-name>
+        <description xml:lang="x-default">Container for Home Page main image.</description>
+        <description xml:lang="fr-FR">Conteneur de l'image principale de la page
+            d'accueil.</description>
+        <description xml:lang="it-IT">Riquadro per immagine principale Pagina
+            principale.</description>
+        <description xml:lang="ja-JP">ホームページのメイン画像のコンテナ。</description>
+        <description xml:lang="zh-CN">主页主图片的容器。</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="categoryLink">womens-jewelry</custom-attribute>
+            <custom-attribute attribute-id="componentType"
+                >content/homepageHero.isml</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="x-default">Shining like a
+                Star</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="fr-FR">Briller comme une
+                Star</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="it-IT">Splendente come una
+                Stella</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="ja-JP">星のように輝く</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="zh-CN">像星星一样闪耀</custom-attribute>
+            <custom-attribute attribute-id="desktopImage"
+                >images/homepage/homepage-slider/2-large-h.jpg</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="home-page"/>
+        </folder-links>
+    </content>
+
+    <content content-id="home-main-slide3">
+        <display-name xml:lang="x-default">Home Main Slider - Slide 3</display-name>
+        <display-name xml:lang="fr-FR">Accueil principal</display-name>
+        <display-name xml:lang="it-IT">Pagina principale Uomo</display-name>
+        <display-name xml:lang="ja-JP">ホームメイン</display-name>
+        <display-name xml:lang="zh-CN">首页主要</display-name>
+        <description xml:lang="x-default">Container for Home Page main image.</description>
+        <description xml:lang="fr-FR">Conteneur de l'image principale de la page
+            d'accueil.</description>
+        <description xml:lang="it-IT">Riquadro per immagine principale Pagina
+            principale.</description>
+        <description xml:lang="ja-JP">ホームページのメイン画像のコンテナ。</description>
+        <description xml:lang="zh-CN">主页主图片的容器。</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="categoryLink">mens-clothing</custom-attribute>
+            <custom-attribute attribute-id="componentType"
+                >content/homepageHero.isml</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="x-default">The Perfect
+                Fit</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="fr-FR">L'ajustement
+                Parfait</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="it-IT">La Vestibilità
+                Perfetta</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="ja-JP">パーフェクトフィット</custom-attribute>
+            <custom-attribute attribute-id="copyText" xml:lang="zh-CN">完美契合</custom-attribute>
+            <custom-attribute attribute-id="desktopImage"
+                >images/homepage/homepage-slider/3-large-h.jpg</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="home-page"/>
+        </folder-links>
+    </content>
+
+    <content content-id="home-main-video">
+        <display-name xml:lang="x-default">Home Main - Video</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="componentType"
+                >content/homepageVideo.isml</custom-attribute>
+            <custom-attribute attribute-id="videoID">T-xUKG_rUGA</custom-attribute>
+            <custom-attribute attribute-id="videoService">youtube</custom-attribute>
+        </custom-attributes>
+    </content>
+    
+</library>

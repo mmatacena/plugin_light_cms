@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slot-configurations xmlns="http://www.demandware.com/xml/impex/slot/2008-09-08">
+
+    <slot-configuration slot-id="home-product-set-m" context="global"
+        configuration-id="home-outfits" default="true" assigned-to-site="true">
+        <description>Homepage Product Set Slot</description>
+        <template>slots/content/contentMediaBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="home-main-bottom"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-main-m" context="global"
+        configuration-id="homepage-hero-carousel" default="true" assigned-to-site="true">
+        <description>Homepage Hero Carousel</description>
+        <template>slots/content/contentSliderBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="home-main-slide1"/>
+                <content-asset content-id="home-main-slide2"/>
+                <content-asset content-id="home-main-slide3"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-main-m" context="global"
+        configuration-id="homepage-hero-image" assigned-to-site="true">
+        <description>Homepage Hero Image</description>
+        <template>slots/content/contentMediaBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="home-main-slide1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-main-m" context="global"
+        configuration-id="homepage-hero-video" assigned-to-site="true">
+        <description>Homepage Hero Video</description>
+        <template>slots/content/contentMediaBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="home-main-video"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+</slot-configurations>
