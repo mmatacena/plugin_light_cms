@@ -26,6 +26,8 @@ This plugin uses plugin_dis to resize the images dinamically.
 
 For more details on how it works, please visit the [Wiki](https://github.com/mmatacena/plugin_light_cms/wiki) section.
 
+*Credits: Roberto Manicardi, Roy Tan and Jason Long.*
+
 # Cartridge Path Considerations
 
 The plugin_light_cms plugin requires the plugin_dis cartridge and the app_storefront_base cartridge. In your cartridge path, include the cartridges in the following order:
