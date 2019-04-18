@@ -1,2 +1,4 @@
 node_modules
 *.css
+package-lock.json
+cartridges/plugin_light_cms/cartridge/static/default/css/storyPage.css
